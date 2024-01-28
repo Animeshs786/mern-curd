@@ -1,4 +1,4 @@
-# MERN E-COMMERCE TUTORIAL
+# MERN CURD APPLICATION
 
 Hi! My name is **Animesh Singh**, 
 
