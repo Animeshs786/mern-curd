@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainWrapper {
+  background-color: #f88c9e;
+  padding-top: 90px;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+.formWrapper {
+  position: relative;
+  background-color: White;
+  width: 100%;
+  max-width: 500px;
+  max-height: 300px;
+  padding: 40px 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 14px;
+}
+
+.formWrapper .fieldsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formWrapper .fieldsSection input {
+  font-weight: 400;
+  height: 40px;
+  padding: 4px;
+  font-size: 14px;
+  color: #4d4545;
+  border: 1px solid #8d8080;
+  border-radius: 4px;
+}
+
+.formWrapper .fieldsSection input:focus {
+  outline: none;
+}
+
+.formWrapper .btnWrapper button:first-child {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  background: transparent;
+  border: 2px solid #a69999;
+  color: gray;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.formWrapper .btnWrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.formWrapper .btnWrapper button:last-child {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  background: #6dcaad;
+  border: 2px solid#6dcaad;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.backBtn {
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  height: 21px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 18px;
+  top: 14px;
+}
+
+/* table css start */
+.tableWrapper {
+  background-color: white;
+  max-width: 650px;
+  width: 100%;
+  padding: 20px;
+  max-height: 500px;
+  height: auto  ;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 14px;
+}
+main{
+  width: 100%;
+  max-width:650px ;
+}
+
+.tableWrapper table {
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+.tableWrapper table thead th {
+  border-bottom: 1px solid gray;
+  text-align: start;
+  padding-bottom: 3px;
+}
+.tableWrapper table thead th:last-child {
+  text-align: center;
+}
+.tableWrapper table tbody td {
+  border-bottom: 1px solid gray;
+  text-align: start;
+  padding: 10px 0;
+}
+
+.tableWrapper table tbody td:last-child button:first-child {
+  border: none;
+  background: #13b313;
+  color: white;
+  font-size: 15px;
+  width: 53px;
+  height: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.tableWrapper table tbody td:last-child {
+  text-align: end;
+}
+.tableWrapper table tbody td:last-child button:last-child {
+  border: none;
+  background: #ec1a1a;
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+  width: 53px;
+  height: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.tableWrapper .createBtn{
+  border: none;
+  background: #ef7d12;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+  width: 53px;
+  height: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+}
