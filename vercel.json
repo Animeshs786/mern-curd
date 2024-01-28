@@ -1,10 +1,10 @@
 {
     "version": 2,
-    "name": "music-album",
+    "name": "native-server",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       { "src": "backend/server.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/app.js" }
+       { "src": "/(.*)", "dest": "/backend/server.js" }
     ]
  }
